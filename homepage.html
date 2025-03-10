@@ -8,22 +8,33 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+        <ul class= "top-nav">
+                <li><a href="https://www.linkedin.com/in/joyzhangxyz/" target="_blank">LinkedIn</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="cv.pdf" target="_blank">CV</a></li>
                 <li><a href="https://github.com/yourgithub" target="_blank">GitHub</a></li>
             </ul>
-        </nav>
+
+        <div class="header">
+            <h2>joyxyz.dev</h2>
+        </div>
+
     </header>
+
     <main>
         <div class="intro">
-            <h1>hi</h1>
-            <h2>my name is joy zhang</h2>
-            <h2>a <span class="clickable" id="creator">creator</span> and <span class="clickable" id="data-lover">&lt;data lover/&gt;</span></h2>
+            <h1>
+                <span style="font-size: 60px;"><b>hi</b></span>
+            </h1>
+            <h2>
+                my name is joy zhang
+            </h2>
+            <h2>
+                a <span class="monospace-text clickable" id="creator">creator</span> and <span class="light-text clickable" id="data-lover"><i>&lt;data lover/&gt;</i></span></span>
+            </h2>
         </div>
     </main>
+
     <script>
         document.getElementById("creator").addEventListener("click", function() {
             window.location.href = "creative-projects.html";
@@ -32,5 +43,6 @@
             window.location.href = "technical-projects.html";
         });
     </script>
+
 </body>
 </html>
