@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta {
+    display: flex;
+    gap: 20px;
+}
+
+.cta button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta button:hover {
+    background: white;
+    color: black;
+}

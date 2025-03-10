@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Zhang - Portfolio</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="cv.pdf" target="_blank">CV</a></li>
+                <li><a href="https://github.com/yourgithub" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="intro">
+            <h1>hi</h1>
+            <h2>my name is joy zhang</h2>
+            <h2>a <span class="clickable" id="creator">creator</span> and <span class="clickable" id="data-lover">&lt;data lover/&gt;</span></h2>
+        </div>
+    </main>
+    <script>
+        document.getElementById("creator").addEventListener("click", function() {
+            window.location.href = "creative-projects.html";
+        });
+        document.getElementById("data-lover").addEventListener("click", function() {
+            window.location.href = "technical-projects.html";
+        });
+    </script>
+</body>
+</html>
