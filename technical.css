@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     background-color: black;
     color: white;
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Header Section */
+
 .header {
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ body {
     font-family: 'Courier New', sans-serif;
 }
 
-/* Gallery Section */
+
 .gallery {
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ body {
     font-family: 'copperplate', sans-serif;
 }
 
-/* Top Navigation */
+
 .top-nav {
     display: flex;
     justify-content: flex-end; 
@@ -85,7 +85,6 @@ body {
     color: #4992d6;
 }
 
-/* CTA (Call to Action) Buttons */
 .cta {
     display: flex;
     gap: 20px;
